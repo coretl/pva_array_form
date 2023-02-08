@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Empty</name>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>100</x>
+    <y>40</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_1</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO:Hex</pv_name>
+    <x>340</x>
+    <y>40</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_2</name>
+    <pv_name>pva://PVA-ARRAY-FORM:WF</pv_name>
+    <x>100</x>
+    <y>160</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_3</name>
+    <pv_name>pva://PVA-ARRAY-FORM:WF:Str</pv_name>
+    <x>340</x>
+    <y>160</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>Hex</text>
+    <y>40</y>
+    <width>80</width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_1</name>
+    <text>No format</text>
+    <x>100</x>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_3</name>
+    <text>Widget format</text>
+    <x>220</x>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_4</name>
+    <text>PVA format</text>
+    <x>340</x>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_4</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>220</x>
+    <y>40</y>
+    <format>4</format>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_5</name>
+    <text>String</text>
+    <y>160</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_5</name>
+    <pv_name>pva://PVA-ARRAY-FORM:WF</pv_name>
+    <x>220</x>
+    <y>160</y>
+    <format>6</format>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_6</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>100</x>
+    <y>70</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_7</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO:Bin</pv_name>
+    <x>340</x>
+    <y>70</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_6</name>
+    <text>Binary</text>
+    <y>70</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_8</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>220</x>
+    <y>70</y>
+    <format>10</format>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_9</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>100</x>
+    <y>100</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_10</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO:Exp</pv_name>
+    <x>340</x>
+    <y>100</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_7</name>
+    <text>Exponential</text>
+    <y>100</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_11</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>220</x>
+    <y>100</y>
+    <format>2</format>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_12</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>100</x>
+    <y>130</y>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_13</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO:Eng</pv_name>
+    <x>340</x>
+    <y>130</y>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label_8</name>
+    <text>Engineering</text>
+    <y>130</y>
+    <width>80</width>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>Text Update_14</name>
+    <pv_name>pva://PVA-ARRAY-FORM:AO</pv_name>
+    <x>220</x>
+    <y>130</y>
+    <format>3</format>
+  </widget>
+</display>

@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "EPICS 7",
+	"image": "ghcr.io/epics-containers/epics-base-linux-developer:23.1.2",
+	"postStartCommand": "pip install softioc",
+    "customizations": {
+        "vscode": {
+            // Set *default* container specific settings.json values on container create.
+            "settings": {
+                "python.defaultInterpreterPath": "/venv/bin/python"
+            },
+            // Add the IDs of extensions you want installed when the container is created.
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },	
+    "runArgs": [
+        "--security-opt=label=disable",
+        "--annotation=run.oci.keep_original_groups=1",
+        "--storage-opt=ignore_chown_errors=true",
+        "--net=host",
+        "-v=${localEnv:HOME}/.ssh:/root/.ssh",
+        "-v=${localEnv:HOME}/.bash_history:/root/.bash_history",
+    ],    
+}
